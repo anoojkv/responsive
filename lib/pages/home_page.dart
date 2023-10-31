@@ -200,7 +200,7 @@ class HomePage extends StatelessWidget {
               children: [
                 constraints.maxWidth > 1400
                     ? Container(
-                        width: constraints.maxWidth * 0.1,
+                        width: 0.1.w(constraints),
                         // height: window.screen!.height!.toDouble(),
 
                         // color: Colors.blueAccent,

@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:responcive/base_widget.dart';
 import 'package:responcive/pages/home_page.dart';
 
-void main() {
+void main() async {
+
   runApp(const MyApp());
 }
 
